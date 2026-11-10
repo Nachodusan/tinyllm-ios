@@ -1,0 +1,142 @@
+{
+  "device": "iPhone17,3",
+  "loadSeconds": 22.314911007881165,
+  "model": "mlx-community/Qwen2.5-0.5B-Instruct-4bit",
+  "modelSizeMB": 334.5940933227539,
+  "runs": [
+    {
+      "elapsedSinceStartS": 1.0372259616851807,
+      "generatedTokens": 103,
+      "memoryFootprintMB": 407.34485626220703,
+      "promptTokens": 40,
+      "promptTokensPerSecond": 1494.3233012389444,
+      "thermalState": "nominal",
+      "timeToFirstTokenMs": 88.61398696899414,
+      "tokensPerSecond": 109.1080883096685,
+      "wallClockMs": 1035.2879762649536
+    },
+    {
+      "elapsedSinceStartS": 2.0744669437408447,
+      "generatedTokens": 103,
+      "memoryFootprintMB": 397.40735626220703,
+      "promptTokens": 40,
+      "promptTokensPerSecond": 1126.9822695869173,
+      "thermalState": "nominal",
+      "timeToFirstTokenMs": 77.90398597717285,
+      "tokensPerSecond": 107.80937892730977,
+      "wallClockMs": 1036.8900299072266
+    },
+    {
+      "elapsedSinceStartS": 3.1410579681396484,
+      "generatedTokens": 103,
+      "memoryFootprintMB": 384.40735626220703,
+      "promptTokens": 40,
+      "promptTokensPerSecond": 1088.0801084369386,
+      "thermalState": "nominal",
+      "timeToFirstTokenMs": 82.0150375366211,
+      "tokensPerSecond": 105.04747586231716,
+      "wallClockMs": 1066.3070678710938
+    },
+    {
+      "elapsedSinceStartS": 4.230936050415039,
+      "generatedTokens": 103,
+      "memoryFootprintMB": 383.96985626220703,
+      "promptTokens": 40,
+      "promptTokensPerSecond": 1095.5583344488812,
+      "thermalState": "nominal",
+      "timeToFirstTokenMs": 80.66296577453613,
+      "tokensPerSecond": 102.33279898466252,
+      "wallClockMs": 1089.6049737930298
+    },
+    {
+      "elapsedSinceStartS": 5.340788006782532,
+      "generatedTokens": 103,
+      "memoryFootprintMB": 383.96985626220703,
+      "promptTokens": 40,
+      "promptTokensPerSecond": 1102.59632888848,
+      "thermalState": "nominal",
+      "timeToFirstTokenMs": 78.85801792144775,
+      "tokensPerSecond": 100.23383973450916,
+      "wallClockMs": 1109.6100807189941
+    },
+    {
+      "elapsedSinceStartS": 6.466251969337463,
+      "generatedTokens": 103,
+      "memoryFootprintMB": 383.98548126220703,
+      "promptTokens": 40,
+      "promptTokensPerSecond": 1102.9913909004547,
+      "thermalState": "nominal",
+      "timeToFirstTokenMs": 80.10399341583252,
+      "tokensPerSecond": 98.78106594519078,
+      "wallClockMs": 1125.2059936523438
+    },
+    {
+      "elapsedSinceStartS": 7.60351300239563,
+      "generatedTokens": 103,
+      "memoryFootprintMB": 383.98548126220703,
+      "promptTokens": 40,
+      "promptTokensPerSecond": 1129.6267169404794,
+      "thermalState": "nominal",
+      "timeToFirstTokenMs": 77.53396034240723,
+      "tokensPerSecond": 97.46671332290562,
+      "wallClockMs": 1136.9489431381226
+    },
+    {
+      "elapsedSinceStartS": 8.759241938591003,
+      "generatedTokens": 103,
+      "memoryFootprintMB": 383.98548126220703,
+      "promptTokens": 40,
+      "promptTokensPerSecond": 1084.570172603271,
+      "thermalState": "nominal",
+      "timeToFirstTokenMs": 81.60996437072754,
+      "tokensPerSecond": 96.2082773759511,
+      "wallClockMs": 1155.44593334198
+    },
+    {
+      "elapsedSinceStartS": 9.927907943725586,
+      "generatedTokens": 103,
+      "memoryFootprintMB": 384.00110626220703,
+      "promptTokens": 40,
+      "promptTokensPerSecond": 1044.2488936469504,
+      "thermalState": "nominal",
+      "timeToFirstTokenMs": 85.44802665710449,
+      "tokensPerSecond": 95.34370944017091,
+      "wallClockMs": 1168.3419942855835
+    },
+    {
+      "elapsedSinceStartS": 11.112882018089294,
+      "generatedTokens": 103,
+      "memoryFootprintMB": 383.12610626220703,
+      "promptTokens": 40,
+      "promptTokensPerSecond": 1050.3122975168326,
+      "thermalState": "nominal",
+      "timeToFirstTokenMs": 84.28096771240234,
+      "tokensPerSecond": 93.85204659045695,
+      "wallClockMs": 1184.6729516983032
+    },
+    {
+      "elapsedSinceStartS": 12.30997896194458,
+      "generatedTokens": 103,
+      "memoryFootprintMB": 383.98548126220703,
+      "promptTokens": 40,
+      "promptTokensPerSecond": 1076.397511941462,
+      "thermalState": "nominal",
+      "timeToFirstTokenMs": 82.50308036804199,
+      "tokensPerSecond": 92.7123596467725,
+      "wallClockMs": 1196.8129873275757
+    },
+    {
+      "elapsedSinceStartS": 13.51784598827362,
+      "generatedTokens": 103,
+      "memoryFootprintMB": 384.00110626220703,
+      "promptTokens": 40,
+      "promptTokensPerSecond": 1063.0399878344729,
+      "thermalState": "nominal",
+      "timeToFirstTokenMs": 83.53197574615479,
+      "tokensPerSecond": 91.84619340617802,
+      "wallClockMs": 1207.5529098510742
+    }
+  ],
+  "startedAt": "2026-11-10T04:09:48Z",
+  "systemVersion": "26.6.1"
+}
