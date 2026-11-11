@@ -1,5 +1,7 @@
 # tinyllm-ios
 
+[![tests](https://github.com/Nachodusan/tinyllm-ios/actions/workflows/tests.yml/badge.svg)](https://github.com/Nachodusan/tinyllm-ios/actions/workflows/tests.yml)
+
 A single tokens/sec figure from a phone is a burst number.
 
 Every on-device inference benchmark publishes one throughput figure. That

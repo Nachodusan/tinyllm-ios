@@ -1,0 +1,39 @@
+# Los tests corren sobre BenchmarkReport, no sobre el modelo: leen los JSON
+# guardados en evidence/ y comprueban que las cifras publicadas y los guards
+# digan lo que el README dice que dicen. No hacen inferencia, así que no
+# necesitan un teléfono ni descargar pesos — por eso pueden correr acá.
+#
+# El build sí arrastra MLX Swift, que es pesado. De ahí el cache.
+name: tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  swift-test:
+    runs-on: macos-15
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Cache SwiftPM
+        uses: actions/cache@v4
+        with:
+          path: |
+            .build
+            ~/Library/Caches/org.swift.swiftpm
+          key: spm-${{ runner.os }}-${{ hashFiles('Package.resolved', 'Package.swift') }}
+          restore-keys: spm-${{ runner.os }}-
+
+      - name: Swift version
+        run: swift --version
+
+      - name: Run tests
+        run: swift test
